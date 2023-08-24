@@ -1,12 +1,9 @@
-a=int(input())
-while a>9:
+n=int(input())
+while n>9:
     s=0
-    while a!=0:
-        rem=a%10
+    while n!=0:
+        rem=n%10
         s=s+rem
-        a=a//10
-    a=s
-print(a)
-    
-
-    
+        n=n//10
+    n=s
+print(s)
