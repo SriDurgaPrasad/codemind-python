@@ -6,5 +6,4 @@ while i<=n//2:
         break
     i=i+1
 if i>=n//2:
-    print("NO")
-        
+    print('NO')
