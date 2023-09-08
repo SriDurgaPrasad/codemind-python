@@ -1,6 +1,6 @@
 a,b=map(int,input().split())
 m=min(a,b)
-while 1:
+while True:
     if a%m==0 and b%m==0:
         break
     else:
