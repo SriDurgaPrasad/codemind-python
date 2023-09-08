@@ -7,7 +7,7 @@ def rev(n):
     return s
 n=int(input())
 flag=0
-if n < 0:
+if n<0:
     n=n*-1
     flag=1
 v=rev(n)
