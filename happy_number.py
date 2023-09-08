@@ -5,7 +5,7 @@ while 1:
         r=n%10
         s=s+r*r
         n=n//10
-    if s<10:
+    if s < 10:
         break
     else:
         n=s
