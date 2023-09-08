@@ -5,10 +5,10 @@ def is_prime(n):
         if n%i==0:
             return 0
     return 1
-d=0
+c=0
 a=int(input())
 b=int(input())
-for c in range(a,b+1):
-    if is_prime(c):
-        d=d+1
-print(d)
+for i in range(a,b+1):
+    if is_prime(i):
+        c=c+1
+print(c)
