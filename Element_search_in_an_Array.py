@@ -1,4 +1,4 @@
 n=int(input())
-nums=list(map(int,input().split()))
+l=list(map(int,input().split()))
 a=int(input())
-print(a in nums)
+print(a in l)
